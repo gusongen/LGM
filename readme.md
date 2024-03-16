@@ -18,7 +18,7 @@ Thanks [@camenduru](https://github.com/camenduru)!
 ```bash
 # xformers is required! please refer to https://github.com/facebookresearch/xformers for details.
 # for example, we use torch 2.1.0 + cuda 11.8
-pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu118
+pip install torch==2.1.0+cu118 torchvision==0.16.0 torchaudio==2.1.0 -f https://mirror.sjtu.edu.cn/pytorch-wheels/torch_stable.html --index-url https://download.pytorch.org/whl/cu118
 pip install -U xformers --index-url https://download.pytorch.org/whl/cu118
 
 # a modified gaussian splatting (+ depth, alpha rendering)
